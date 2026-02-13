@@ -81,5 +81,5 @@ The system features a robust `users` table designed for secure access control, a
 
 *Oscar Blanco* - Systems Engineer Student | Fullstack Developer
 * *LinkedIn:* [linkedin.com/in/oscarblanco-software-eng](https://linkedin.com/in/oscarblanco-software-eng)
-* *GitHub:* [github.com/oscarblanco-software-eng](https://github.com/oscarblanco-software-eng/oscarblanco-software-eng).
+* *GitHub:* [github.com/oscarblanco-software-eng](https://github.com/oscarblanco-software-eng/oscarblanco-software-eng)
 
