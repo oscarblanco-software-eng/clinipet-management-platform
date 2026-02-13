@@ -17,17 +17,12 @@ This project focuses on delivering a high-performance management tool for veteri
 
 ## ✨ Key Features
 
-* *​Role-Based Access Control (RBAC): Integrated admin and user roles to manage different permission levels within the clinic.
-​* Secure Authentication: Implementation of secure password storage using industry-standard hashing and unique email constraints.
-* ​Account Recovery: Built-in support for secure password reset flows using resetToken and expiration timestamps.
-* ​Audit Ready: Automatic tracking of record creation and updates via createdAt and updatedAt timestamps.
+* *​Role-Based Access Control (RBAC):* Integrated admin and user roles to manage different permission levels within the clinic.
+​* *Secure Authentication:* Implementation of secure password storage using industry-standard hashing and unique email constraints.
+* *​Account Recovery:* Built-in support for secure password reset flows using resetToken and expiration timestamps.
+* *​Audit Ready:* Automatic tracking of record creation and updates via createdAt and updatedAt timestamps.
   
-​✨ Upcoming Features
-
-​* Patient Management: Digital medical records for pets.
-* Appointment Scheduling: Calendar integration for veterinary consultations.
-​* Clinical History: Detailed logs of treatments, vaccines, and previous visits.
-
+​
 ## 📊 Technical Skills & Proficiency
 
 <p align="left">
@@ -52,8 +47,7 @@ The system features a robust `users` table designed for secure access control, a
 
 ### Entity Relationship Diagram (ERD)
 
-## ```mermaid
-erDiagram
+# erDiagram
     USERS {
         int id PK
         string email UK
@@ -64,7 +58,6 @@ erDiagram
         datetime createdAt
         datetime updatedAt
     }
-
 
 ## ⚙️ Installation & Setup
 
@@ -88,5 +81,5 @@ erDiagram
 
 *Oscar Blanco* - Systems Engineer Student | Fullstack Developer
 * *LinkedIn:* [linkedin.com/in/oscarblanco-software-eng](https://linkedin.com/in/oscarblanco-software-eng)
-* *GitHub:* [github.com/tu-usuario](https://github.com/tu-usuario)
-*
+* *GitHub:* [github.com/tu-usuario](https://github.com/oscarblanco-software-eng)
+
