@@ -3,6 +3,30 @@
 Clinipet is a professional full-stack web application designed to streamline operations for veterinary clinics. This platform focuses on secure user management, role-based access, and efficient clinic administration.
 
 ---
+## 🚀 Overview
+
+This project focuses on delivering a high-performance management tool for veterinary professionals, ensuring data integrity through a relational database and a modern, responsive user interface.
+
+## 🛠️ Tech Stack
+
+* *Frontend:* React.js
+* *Backend:* Node.js & Express.js
+* *Database:* MySQL (Relational Database Management)
+* *Authentication:* JWT (JSON Web Tokens)
+* *Styling:* CSS3 / Material UI (o la librería que uses)
+
+## ✨ Key Features
+
+* *​Role-Based Access Control (RBAC): Integrated admin and user roles to manage different permission levels within the clinic.
+​* *Secure Authentication: Implementation of secure password storage using industry-standard hashing and unique email constraints.
+* *​Account Recovery: Built-in support for secure password reset flows using resetToken and expiration timestamps.
+* *​Audit Ready: Automatic tracking of record creation and updates via createdAt and updatedAt timestamps.
+  
+​## ✨ Upcoming Features
+
+​* *Patient Management: Digital medical records for pets.
+* *​Appointment Scheduling: Calendar integration for veterinary consultations.
+​* *Clinical History: Detailed logs of treatments, vaccines, and previous visits.
 
 ## 📊 Technical Skills & Proficiency
 
@@ -27,7 +51,8 @@ The core authentication and user authorization system is fully implemented, util
 The system features a robust `users` table designed for secure access control, account recovery, and administrative auditing.
 
 ### Entity Relationship Diagram (ERD)
-```mermaid
+
+## ```mermaid
 erDiagram
     USERS {
         int id PK
@@ -40,38 +65,28 @@ erDiagram
         datetime updatedAt
     }
 
-##  Key Technical Features:
-​Role-Based Access Control (RBAC): Integrated admin and user roles to manage different permission levels within the clinic.
-​Secure Authentication: Implementation of secure password storage using industry-standard hashing and unique email constraints.
-​Account Recovery: Built-in support for secure password reset flows using resetToken and expiration timestamps.
-​Audit Ready: Automatic tracking of record creation and updates via createdAt and updatedAt timestamps.
-​## Upcoming Features
-​Patient Management: Digital medical records for pets.
-​Appointment Scheduling: Calendar integration for veterinary consultations.
-​Clinical History: Detailed logs of treatments, vaccines, and previous visits.
 
 ## ⚙️ Installation & Setup
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/oscarblanco-software-eng/clinipet-management-platform.git)
-    ```
-2.  **Install dependencies:**
-    ```bash
+1.  *Clone the repository:*
+    bash
+    git clone [https://github.com/tu-usuario/clinipet.git](https://github.com/tu-usuario/clinipet.git)
+    
+2.  *Install dependencies:*
+    bash
     npm install
-    ```
-3.  **Database Configuration:**
-    * Create a MySQL database named clinipet.
-​    * Import the provided SQL dump to set up the users table.
-    * ​Configure your .env file with your local DB credentials.
-4.  **Run the application:**
-    ```bash
+    
+3.  *Database Configuration:*
+    * Create a MySQL database.
+    * Configure your .env file with your DB credentials (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME).
+4.  *Run the application:*
+    bash
     npm start
-    ```
+    
 
 ## 📧 Contact
 
-**Oscar Blanco** - Systems Engineer Student | Fullstack Developer
-* **LinkedIn:** [linkedin.com/in/oscarblanco-software-eng](https://linkedin.com/in/oscarblanco-software-eng)
-* **GitHub:** [github.com/tu-usuario](https://github.com/oscarblanco-software-eng)
+*Oscar Blanco* - Systems Engineer Student | Fullstack Developer
+* *LinkedIn:* [linkedin.com/in/oscarblanco-software-eng](https://linkedin.com/in/oscarblanco-software-eng)
+* *GitHub:* [github.com/tu-usuario](https://github.com/tu-usuario)
 *
