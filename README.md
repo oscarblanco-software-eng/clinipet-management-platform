@@ -1,50 +1,85 @@
-# CLINIPET - Veterinary Management System
+# Clinipet - Veterinary Management Platform 🐾
 
-CLINIPET is a professional Fullstack web application designed to streamline appointment scheduling and patient management for veterinary clinics. Built with the *MERN Stack*, it offers a robust solution for handling pet records and clinical agendas.
+Clinipet is a professional full-stack web application designed to streamline operations for veterinary clinics. This platform focuses on secure user management, role-based access, and efficient clinic administration.
 
-## 🚀 Key Features
+---
+## 🚀 Overview
 
-* *Appointment Management:* Create, update, and delete appointments with real-time status tracking.
-* *Patient Records:* Comprehensive management of pet data and owner information.
-* *Secure Authentication:* User login and registration system to protect clinic data.
-* *Responsive Design:* Fully optimized for desktops, tablets, and mobile devices.
-* *RESTful API:* Clean backend architecture for seamless frontend-backend communication.
+This project focuses on delivering a high-performance management tool for veterinary professionals, ensuring data integrity through a relational database and a modern, responsive user interface.
 
 ## 🛠️ Tech Stack
 
-* *Frontend:* React.js, CSS3 (Custom Styles), React Router.
-* *Backend:* Node.js, Express.js.
-* *Database:* MongoDB (NoSQL) with Mongoose ODM.
-* *Authentication:* JSON Web Tokens (JWT).
+* *Frontend:* React.js
+* *Backend:* Node.js & Express.js
+* *Database:* MySQL (Relational Database Management)
+* *Authentication:* JWT (JSON Web Tokens)
+* *Styling:* CSS3 / Material UI (o la librería que uses)
 
-## 📦 Installation & Setup
+## ✨ Key Features
 
-1. *Clone the repository:*
-   ```bash
-   git clone [https://github.com/oscarblanco2013/CLINIPET.git](https://github.com/oscarblanco2013/CLINIPET.git)
+* *​Role-Based Access Control (RBAC):* Integrated admin and user roles to manage different permission levels within the clinic.
+​* *Secure Authentication:* Implementation of secure password storage using industry-standard hashing and unique email constraints.
+* *​Account Recovery:* Built-in support for secure password reset flows using resetToken and expiration timestamps.
+* *​Audit Ready:* Automatic tracking of record creation and updates via createdAt and updatedAt timestamps.
+  
+​
+## 📊 Technical Skills & Proficiency
 
- * Install Backend dependencies:
-   cd backend
-npm install
+<p align="left">
+  <img src="https://img.shields.io/badge/Main_Stack-Full_Stack_JS-blue?style=for-the-badge" alt="Main Stack" />
+  <img src="https://img.shields.io/badge/Total_Projects-1_Featured-green?style=for-the-badge" alt="Projects" />
+</p>
 
- * Install Frontend dependencies:
-   cd ../frontend
-npm install
-
- * Environment Variables:
-   Create a .env file in the backend folder and add your MONGODB_URI and JWT_SECRET.
- * Run the application:
-   * Backend: npm start (inside /backend)
-   * Frontend: npm run dev (inside /frontend)
-📐 Architecture
-The project follows the MVC (Model-View-Controller) pattern on the backend to ensure scalability and maintainability. The frontend is component-based, promoting code reusability.
-Developed by Oscar Blanco - Systems Engineer.
+### 🛠️ Tech Stack & Tools
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 ---
 
-### ¿Por qué esto te ayuda?
-1.  *Terminología Pro:* Usar palabras como Scalability, Maintainability y RESTful API le dice al reclutador que hablas "el idioma de la industria".
-2.  *Guía de Instalación:* Demuestra que eres ordenado y que sabes trabajar en equipo.
-3.  *Impacto Visual:* Un repositorio con este formato se ve mucho más "Senior" que uno que solo tiene el código.
+## 🚀 Project Status
+The core authentication and user authorization system is fully implemented, utilizing a relational database (MySQL) to ensure high data integrity and security.
 
-*¿Te gustaría que te ayude a configurar el archivo .gitignore para que tu repositorio esté más limpio de archivos innecesarios?* Solo dime y te paso la lista de carpetas a ignorar.
+## 🗄️ Database Architecture (MySQL)
+
+The system features a robust `users` table designed for secure access control, account recovery, and administrative auditing.
+
+### Entity Relationship Diagram (ERD)
+
+# erDiagram
+    USERS {
+        int id PK
+        string email UK
+        string password
+        string resetToken
+        datetime tokenExpires
+        enum role
+        datetime createdAt
+        datetime updatedAt
+    }
+
+## ⚙️ Installation & Setup
+
+1.  *Clone the repository:*
+    bash
+    git clone [https://github.com/oscarblanco-software-eng/clinipet-management-platform.git)
+    
+2.  *Install dependencies:*
+    bash
+    npm install
+    
+3.  *Database Configuration:*
+    * Create a MySQL database.
+    * Configure your .env file with your DB credentials (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME).
+4.  *Run the application:*
+    bash
+    npm start
+    
+
+## 📧 Contact
+
+*Oscar Blanco* - Systems Engineer Student | Fullstack Developer
+* *LinkedIn:* [linkedin.com/in/oscarblanco-software-eng](https://linkedin.com/in/oscarblanco-software-eng)
+* *GitHub:* [github.com/oscarblanco-software-eng](https://github.com/oscarblanco-software-eng/oscarblanco-software-eng)
+
