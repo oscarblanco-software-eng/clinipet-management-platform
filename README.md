@@ -18,9 +18,9 @@ This project focuses on delivering a high-performance management tool for veteri
 ## ✨ Key Features
 
 * *​Role-Based Access Control (RBAC): Integrated admin and user roles to manage different permission levels within the clinic.
-​* *Secure Authentication: Implementation of secure password storage using industry-standard hashing and unique email constraints.
-* *​Account Recovery: Built-in support for secure password reset flows using resetToken and expiration timestamps.
-* *​Audit Ready: Automatic tracking of record creation and updates via createdAt and updatedAt timestamps.
+​* Secure Authentication: Implementation of secure password storage using industry-standard hashing and unique email constraints.
+* ​Account Recovery: Built-in support for secure password reset flows using resetToken and expiration timestamps.
+* ​Audit Ready: Automatic tracking of record creation and updates via createdAt and updatedAt timestamps.
   
 ​## ✨ Upcoming Features
 
