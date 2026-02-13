@@ -22,11 +22,11 @@ This project focuses on delivering a high-performance management tool for veteri
 * ​Account Recovery: Built-in support for secure password reset flows using resetToken and expiration timestamps.
 * ​Audit Ready: Automatic tracking of record creation and updates via createdAt and updatedAt timestamps.
   
-​## ✨ Upcoming Features
+​✨ Upcoming Features
 
-​* *Patient Management: Digital medical records for pets.
-* *​Appointment Scheduling: Calendar integration for veterinary consultations.
-​* *Clinical History: Detailed logs of treatments, vaccines, and previous visits.
+​* Patient Management: Digital medical records for pets.
+* Appointment Scheduling: Calendar integration for veterinary consultations.
+​* Clinical History: Detailed logs of treatments, vaccines, and previous visits.
 
 ## 📊 Technical Skills & Proficiency
 
@@ -70,7 +70,7 @@ erDiagram
 
 1.  *Clone the repository:*
     bash
-    git clone [https://github.com/tu-usuario/clinipet.git](https://github.com/tu-usuario/clinipet.git)
+    git clone [https://github.com/oscarblanco-software-eng/clinipet-management-platform.git)
     
 2.  *Install dependencies:*
     bash
